@@ -648,6 +648,7 @@ output_relocs (
 				case R_MICROBLAZE_64_PCREL:
 				case R_MICROBLAZE_PLT_64:
 				case R_MICROBLAZE_NONE:
+				case R_MICROBLAZE_32_NONE:
 				case R_MICROBLAZE_64_NONE:
 				case R_MICROBLAZE_32_PCREL_LO:
 					relocation_needed = 0;
@@ -1045,6 +1046,7 @@ output_relocs (
 				/* These are already relocated for us as text-relative, or are dummy entries */
 				case R_MICROBLAZE_PLT_64:
 				case R_MICROBLAZE_NONE:
+				case R_MICROBLAZE_32_NONE:
 				case R_MICROBLAZE_64_NONE:
 				case R_MICROBLAZE_32_PCREL_LO:
 					relocation_needed = 0;
